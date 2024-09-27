@@ -128,8 +128,8 @@ class App extends Component {
           </div>
           <div className='quote-container'>
             <div className='tweet-quote'>
-              <a id='tweet-quote' style={{backgroundColor: color}} href='#'><i class="fa-brands fa-x-twitter"></i></a>
-              <a id='tweet-quote' style={{backgroundColor: color}} href='#'><i class="fa-brands fa-tumblr"></i></a>
+              <a id='tweet-quote' style={{backgroundColor: color}} href='https://x.com/home'><i class="fa-brands fa-x-twitter"></i></a>
+              <a id='tweet-quote' style={{backgroundColor: color}} href='https://www.tumblr.com'><i class="fa-brands fa-tumblr"></i></a>
             </div>
             <div className='new-quote'>
               <button 
