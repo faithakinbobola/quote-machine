@@ -67,3 +67,26 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90% !important;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #author {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 26px;
+    line-height: 20px;
+  }
+  #author {
+    font-size: 14px;
+  }
+}
